@@ -1,7 +1,7 @@
 from tkinter  import *
 from tkinter import  messagebox
 import mysql.connector as m1
-con=m1.connect(host='localhost',database='bankdata',user='root',password='harsh@31')
+con=m1.connect(host='localhost',database='bankdata',user='root',password='')
 root= Tk()
 root.title('Bank Application')
 root.configure(bg='cyan')
